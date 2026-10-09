@@ -1,0 +1,43 @@
+{
+  "split_sizes": {
+    "train": 341,
+    "validation": 114,
+    "test": 114
+  },
+  "validation_thresholds": [
+    {
+      "threshold": 0.5,
+      "fn": 1,
+      "fp": 0,
+      "accuracy": 0.9912280701754386,
+      "sensitivity": 0.9767441860465116,
+      "specificity": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "fn": 1,
+      "fp": 2,
+      "accuracy": 0.9736842105263158,
+      "sensitivity": 0.9767441860465116,
+      "specificity": 0.971830985915493
+    },
+    {
+      "threshold": 0.1,
+      "fn": 0,
+      "fp": 7,
+      "accuracy": 0.9385964912280702,
+      "sensitivity": 1.0,
+      "specificity": 0.9014084507042254
+    }
+  ],
+  "validation_auc": 0.9980347199475925,
+  "test": {
+    "threshold": 0.5,
+    "fn": 1,
+    "fp": 1,
+    "accuracy": 0.9824561403508771,
+    "sensitivity": 0.9761904761904762,
+    "specificity": 0.9861111111111112
+  },
+  "test_auc": 0.9950396825396826
+}
